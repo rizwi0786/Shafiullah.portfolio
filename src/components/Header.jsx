@@ -15,9 +15,8 @@ const Header = () => {
 
   return (
     <motion.header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'glass-dark shadow-lg' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'glass-dark shadow-lg' : 'bg-transparent'
+        }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -30,7 +29,7 @@ const Header = () => {
           >
             MSQ
           </motion.div>
-          
+
           <div className="hidden md:flex space-x-8">
             {['About', 'Experience', 'Projects', 'Skills', 'Education', 'Contact'].map((item) => (
               <motion.a
@@ -44,14 +43,14 @@ const Header = () => {
               </motion.a>
             ))}
             <motion.a
-                href="/Md_Shafiullah_Quraishi.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-300 hover:text-accent transition-colors font-semibold"
-                whileHover={{ y: -2, scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Resume
+              href={`${process.env.PUBLIC_URL}/Md_Shafiullah_Quraishi.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-accent transition-colors font-semibold"
+              whileHover={{ y: -2, scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Resume
             </motion.a>
           </div>
 
