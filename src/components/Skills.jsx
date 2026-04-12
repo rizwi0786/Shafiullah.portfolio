@@ -23,7 +23,7 @@ const skillsData = [
   {
     category: 'Developer Tools',
     icon: <FaTools />,
-    skills: ['Visual Studio', 'Postman', 'SSMS', 'PgAdmin']
+    skills: ['Visual Studio', 'Postman', 'PowerBI', 'SSMS', 'PgAdmin']
   }
 ];
 

@@ -15,11 +15,11 @@ const projectsData = {
         'Implemented 12+ functional modules including dashboards and monitoring'
       ],
       images: [
-        { url: '/images/ig1.png', caption: 'Main Dashboard Overview' },
-        { url: '/images/ig2.png', caption: 'Real-time Project Monitoring' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Document+Management', caption: 'Document Management System' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Analytics', caption: 'Advanced Analytics Dashboard' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Reports', caption: 'Comprehensive Reports Module' }
+        { url: '/images/MSIDC_mainpage1.png', caption: 'MSIDC Main Page' },
+        { url: '/images/MSIDC_mainpage2.png', caption: 'MSIDC Main Page View' },
+        { url: '/images/MSIDC_dashboard_example1.png', caption: 'Dashboard Overview' },
+        { url: '/images/MSIDC_portfolio.png', caption: 'Portfolio Dashboard' },
+        { url: '/images/MSIDC_wepage_example.png', caption: 'Web Page Example' }
       ]
     },
     {
@@ -32,10 +32,7 @@ const projectsData = {
         'Integrated multi-tier approval systems with role-based access'
       ],
       images: [
-        { url: '/images/ig1.png', caption: 'Bihar ADB Portal Homepage' },
-        { url: '/images/ig2.png', caption: 'Project Progress Tracking' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Approval+System', caption: 'Multi-tier Approval System' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Financial+Module', caption: 'Financial Management Module' }
+        { url: '/images/BiharADB1.png', caption: 'Bihar ADB Portal' }
       ]
     },
     {
@@ -48,11 +45,11 @@ const projectsData = {
         'Built real-time analytics dashboards with PowerBI integration'
       ],
       images: [
-        { url: '/images/ig2.png', caption: 'GUDC Main Dashboard' },
-        { url: '/images/ig2.png', caption: 'PowerBI Analytics Integration' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Portfolio+View', caption: 'Portfolio Management View' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Data+Aggregation', caption: 'Complex Data Aggregation' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Reports', caption: 'Advanced Reporting System' }
+        { url: '/images/GUDC1.png', caption: 'GUDC Main Dashboard' },
+        { url: '/images/GUDC2.png', caption: 'Project Overview' },
+        { url: '/images/GUDC3.png', caption: 'Analytics Module' },
+        { url: '/images/GUDC4.png', caption: 'Data Aggregation View' },
+        { url: '/images/GUDC5.png', caption: 'Reporting System' }
       ]
     },
     {
@@ -65,31 +62,84 @@ const projectsData = {
         'Designed contractor evaluation and performance tracking system'
       ],
       images: [
-        { url: '/images/ig2.png', caption: 'GHB Housing Portal' },
-        { url: '/images/ig2.png', caption: 'Financial Tracking Module' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Contractor+Management', caption: 'Contractor Management System' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Performance', caption: 'Performance Analytics Dashboard' }
+        { url: '/images/GHB1.png', caption: 'GHB Housing Portal' }
       ]
     },
     {
-      title: 'Document Management & OCR System',
-      description: 'Built intelligent document processing system with OCR integration for automated data extraction and categorization across all PMS applications.',
-      technologies: ['ASP.NET Core', 'Azure OCR', 'PostgreSQL', 'React'],
-      date: 'Nov 2024',
+      title: 'NMDC DPMU Application',
+      description: 'Project monitoring application for NMDC (National Mineral Development Corporation) DPMU, enabling real-time tracking and management of NMDC\'s infrastructure projects with comprehensive dashboards and reporting.',
+      technologies: ['ASP.NET Core', 'PostgreSQL', 'MVC', 'Blazor'],
+      date: 'Dec 2024',
       highlights: [
-        'Integrated Azure OCR for automated document processing',
-        'Reduced manual data entry time by 60% through automation'
+        'Built end-to-end project monitoring system for tracking NMDC infrastructure projects',
+        'Implemented real-time dashboards with progress tracking and milestone management'
       ],
       images: [
-        { url: '/images/ig2.png', caption: 'OCR Processing Interface' },
-        { url: '/images/ig2.png', caption: 'Document Upload Module' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Data+Extraction', caption: 'Automated Data Extraction' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Categories', caption: 'Document Categorization' },
-        { url: 'https://via.placeholder.com/800x500/3b82f6/ffffff?text=Processing', caption: 'Real-time Processing Dashboard' }
+        { url: '/images/NMDC1.png', caption: 'NMDC DPMU Dashboard' },
+        { url: '/images/NMDC2.png', caption: 'Project Monitoring View' },
+        { url: '/images/NMDC3.png', caption: 'Progress Tracking Module' },
+        { url: '/images/NMDC4.png', caption: 'Data Analytics' },
+        { url: '/images/NMDC5.png', caption: 'Reporting & Analytics' }
+      ]
+    },
+    {
+      title: 'CSPGRS - Chief Secretary Grievance Redressal System',
+      description: 'Citizen Grievance Management System built for Bihar\'s Chief Secretary office. Enables citizens to lodge grievances and tracks resolution through multi-level administrative workflows.',
+      technologies: ['ASP.NET Core', 'PostgreSQL', 'MVC', 'AdminPg'],
+      date: 'Jan 2025',
+      highlights: [
+        'Developed grievance submission and tracking portal for citizens of Bihar',
+        'Implemented multi-tier administrative workflow for grievance resolution and escalation'
+      ],
+      images: [
+        { url: '/images/CSPGRS1.png', caption: 'CSPGRS Main Portal' },
+        { url: '/images/CSPGRS2.png', caption: 'Grievance Dashboard' },
+        { url: '/images/CSPGRS3.png', caption: 'Grievance Submission Flow' },
+        { url: '/images/CSPGRS4.png', caption: 'Tracking System' },
+        { url: '/images/CSPGRS5.png', caption: 'Admin Resolution Dashboard' }
       ]
     }
   ],
   personal: [
+    {
+      title: 'DocRepoAI - AI Document Repository & Q&A',
+      description: 'Multi-tenant AI-powered Document Repository and Q&A platform. Upload documents (PDF, DOCX, TXT), auto-extract text, generate semantic embeddings, and query documents using natural language with source citations.',
+      technologies: ['React', 'Node.js', 'PostgreSQL', 'pgvector', 'LangChain', 'Redis'],
+      date: '2025',
+      highlights: [
+        'Built semantic + full-text hybrid search with pgvector embeddings and tsvector indexing',
+        'Implemented AI-powered auto-categorization, tagging, and RAG-based Q&A with source citations',
+        'Designed multi-tenant architecture with strict per-user data isolation and JWT auth'
+      ],
+      github: 'https://github.com/rizwi0786/docrepoai',
+      demo: '#'
+    },
+    {
+      title: 'Wahaz Fabrication - E-Commerce Platform',
+      description: 'Premium men\'s designer fashion e-commerce platform with customer storefront, admin panel, Razorpay payments, and JWT authentication with refresh token rotation.',
+      technologies: ['React 18', 'Redux Toolkit', 'Node.js', 'Prisma', 'PostgreSQL', 'Razorpay'],
+      date: '2025',
+      highlights: [
+        'Built full admin panel with revenue charts, product CRUD, order management, and review moderation',
+        'Implemented secure auth with JWT rotation, bcrypt hashing, rate limiting, and Razorpay HMAC verification',
+        '3-step checkout flow with Razorpay integration (UPI, card, netbanking) + Cash on Delivery'
+      ],
+      github: 'https://github.com/rizwi0786/wahaz_febrication',
+      demo: '#'
+    },
+    {
+      title: 'VidGrab - Chrome Extension',
+      description: 'Manifest V3 Chrome extension that detects media streams on pages, lists downloadable candidates in a rich popup, and supports in-extension conversion (HLS to MP4, MP3 extraction) via ffmpeg.wasm.',
+      technologies: ['JavaScript', 'Chrome MV3', 'ffmpeg.wasm', 'Service Workers'],
+      date: '2025',
+      highlights: [
+        'Built media stream detection with content scripts and background service worker architecture',
+        'Integrated ffmpeg.wasm locally for in-browser HLS-to-MP4 conversion and MP3 extraction',
+        'Designed rich popup UI with download management and progress tracking'
+      ],
+      github: 'https://github.com/rizwi0786/vidgrab',
+      demo: '#'
+    },
     {
       title: 'Medical Appointment Booking System',
       description: 'Spearheaded a secure MERN app for Medical Bookings, implementing encryption, JWT authentication, and integrating Stripe for secure transactions across 10 intuitive pages.',
@@ -99,7 +149,7 @@ const projectsData = {
         'Collaborated with a 5-member team using Git to manage over 200 modifications',
         'Optimized Express/MongoDB API for seamless data management'
       ],
-      github: 'https://github.com/msrizwi303',
+      github: 'https://github.com/rizwi0786',
       demo: '#'
     },
     {
@@ -111,43 +161,20 @@ const projectsData = {
         'Integrated OpenAI to convert natural language into accurate SQL queries',
         'Enables non-technical users to perform effortless data analysis'
       ],
-      github: 'https://github.com/msrizwi303',
+      github: 'https://github.com/rizwi0786',
       demo: '#'
     },
     {
-      title: 'AI-Powered Portfolio Website',
-      description: 'Created a modern, animated portfolio website with glassmorphism effects, Three.js 3D animations, and smooth scroll interactions using React and Framer Motion.',
-      technologies: ['React', 'Three.js', 'Framer Motion', 'TailwindCSS'],
-      date: 'Nov 2024',
+      title: 'Cognitive Load Analysis',
+      description: 'Brain-Computer Interface research project utilizing EEG Dataset for real-time cognitive load detection, leveraging machine learning algorithms to classify mental states.',
+      technologies: ['Python', 'Pandas', 'NumPy', 'SciPy', 'Scikit-learn', 'Machine Learning'],
+      date: 'Oct 2023',
       highlights: [
-        'Implemented advanced 3D animations and interactive elements',
-        'Achieved 95+ Lighthouse performance score'
+        'Led BCI research project, achieving up to 84.19% accuracy using 5 ML algorithms',
+        'Elevated human-computer interaction and personalized interventions in education and healthcare',
+        'Demonstrated expertise in EEG-based cognitive load assessment and brain activity patterns'
       ],
-      github: 'https://github.com/msrizwi303',
-      demo: '#'
-    },
-    {
-      title: 'E-Commerce Platform with Admin Dashboard',
-      description: 'Full-stack e-commerce solution with product management, shopping cart, payment integration, and comprehensive admin dashboard for inventory and order management.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Redux', 'Stripe'],
-      date: 'Aug 2023',
-      highlights: [
-        'Built RESTful API with 40+ endpoints for complete CRUD operations',
-        'Implemented real-time inventory tracking and automated email notifications'
-      ],
-      github: 'https://github.com/msrizwi303',
-      demo: '#'
-    },
-    {
-      title: 'Real-Time Chat Application',
-      description: 'WebSocket-based real-time chat application with private messaging, group chats, file sharing, and emoji support with modern UI/UX design.',
-      technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB', 'JWT'],
-      date: 'May 2023',
-      highlights: [
-        'Implemented WebSocket for real-time bidirectional communication',
-        'Built notification system with sound alerts and desktop notifications'
-      ],
-      github: 'https://github.com/msrizwi303',
+      github: 'https://github.com/rizwi0786/cognitive_load_analysis',
       demo: '#'
     }
   ]
@@ -178,7 +205,7 @@ const FlipCard = ({ project, index }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
       style={{ perspective: '1500px' }}
-      className="min-h-[390px] h-auto h-full"
+      className="min-h-[420px] h-auto h-full"
     >
       <motion.div
         animate={{ rotateY: isFlipped ? 180 : 0 }}
@@ -187,7 +214,7 @@ const FlipCard = ({ project, index }) => {
           transformStyle: 'preserve-3d',
           position: 'relative',
           width: '100%',
-          minHeight: '390px',
+          minHeight: '420px',
           height: '100%',
         }}
       >
@@ -270,7 +297,7 @@ const FlipCard = ({ project, index }) => {
               <AnimatePresence mode="wait">
                 <motion.img
                   key={currentImageIndex}
-                  src={project.images[currentImageIndex].url}
+                  src={process.env.PUBLIC_URL + project.images[currentImageIndex].url}
                   alt={project.images[currentImageIndex].caption}
                   className="w-full h-full object-contain"
                   initial={{ opacity: 0, x: 100 }}

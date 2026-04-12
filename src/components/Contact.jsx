@@ -92,7 +92,7 @@ const Contact = () => {
               </motion.a>
 
               <motion.a
-                href="https://github.com/msrizwi303"
+                href="https://github.com/rizwi0786"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 bg-secondary p-4 rounded-lg border border-accent/10"
@@ -101,7 +101,7 @@ const Contact = () => {
                 <FaGithub className="text-accent text-2xl" />
                 <div>
                   <p className="text-sm text-gray-400">GitHub</p>
-                  <p className="font-semibold">msrizwi303</p>
+                  <p className="font-semibold">rizwi0786</p>
                 </div>
               </motion.a>
             </div>

@@ -56,7 +56,7 @@ const Header = () => {
 
           <div className="flex space-x-4">
             <motion.a
-              href="https://github.com/msrizwi303"
+              href="https://github.com/rizwi0786"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}

@@ -11,8 +11,7 @@ const Education = () => {
     'Object-Oriented Programming',
     'Data Structures And Algorithm',
     'Database Management System',
-    'Data Science',
-    'Image Processing'
+    'Data Science'
   ];
 
   return (
